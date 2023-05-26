@@ -41,8 +41,8 @@ module.exports = {
         colorActiveMenuIcon: "#028cb8",
 
         border: "hsl(214.3 31.8% 91.4%)",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
+        input: "hsl(214.3 31.8% 91.4%)",
+        ring: "hsl(215 20.2% 65.1%)",
         background: "hsl(0 0% 100%)",
         foreground: "hsl(222.2 47.4% 11.2%)",
 
