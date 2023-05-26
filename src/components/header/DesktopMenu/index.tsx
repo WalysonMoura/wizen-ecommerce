@@ -19,7 +19,7 @@ export function DesktopMenu() {
       <FaMapMarkerAlt size={24} color="#009ED0" />
       {/**<Search/> */}
 
-      <div class="flex items-center gap-8">
+      <div class="flex items-center gap-2">
         <FaMapMarkerAlt size={24} color="#009ED0" />
         <div class="flex flex-col items-center justify-start">
           <span class="text-white2">Onde está meu pedido?</span>
@@ -27,7 +27,7 @@ export function DesktopMenu() {
         </div>
       </div>
 
-      <div class="flex items-center gap-8">
+      <div class="flex items-center gap-2">
         {/**
          * Login
          */}
