@@ -43,7 +43,7 @@ module.exports = {
         border: "hsl(214.3 31.8% 91.4%)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(0 0% 100%)",
+        //background: "hsl(0 0% 100%)",
         foreground: "hsl(222.2 47.4% 11.2%)",
 
         primary: {
@@ -54,23 +54,25 @@ module.exports = {
           foreground: "hsl(210 40% 98%))",
         },
 
-        background: {
-          header: "#051932",
-          informationBar: "#009ED0",
-          page: "hsl(0 0% 100%)",
-        },
+        //background: {
+
+        //   },
+
+        header: "#051932",
+        informationBar: "#009ED0",
+        page: "hsl(0 0% 100%)",
 
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "hsl(210 40% 96.1%)",
+          foreground: "hsl(222.2 47.4% 11.2%)",
         },
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+          DEFAULT: "hsl(0 100% 50%)",
+          foreground: "hsl(210 40% 98%)",
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground))",
+          DEFAULT: "hsl(210 40% 96.1%)",
+          foreground: "hsl(215.4 16.3% 46.9%)",
         },
         accent: {
           DEFAULT: "hsl(210 40% 96.1%)",
