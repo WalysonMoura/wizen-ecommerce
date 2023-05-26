@@ -6,11 +6,10 @@ import { BottomNavigation } from "../BottomNavigation";
 import { InformationBar } from "../InformationBar";
 import { DesktopMenu } from "./DesktopMenu";
 import { MobileMenu } from "./MobileMenu";
-import * as Styles from "./styles";
+//import * as Styles from "./styles";
 
 export function Header() {
   const isMobile = useIsMobile();
-
   /*
     {isMobile ? (
         <>

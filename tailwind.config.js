@@ -56,17 +56,9 @@ module.exports = {
         foreground: "hsl(222.2 47.4% 11.2%)",
 
         primary: {
-          lightBlue: "#009ED0",
-          white: "#f8f8f8",
-          darkBlue: "#051932",
           DEFAULT: "hsl(222.2 47.4% 11.2%)",
           foreground: "hsl(210 40% 98%))",
         },
-
-        //background: {
-
-        //   },
-
         secondary: {
           DEFAULT: "hsl(210 40% 96.1%)",
           foreground: "hsl(222.2 47.4% 11.2%)",
