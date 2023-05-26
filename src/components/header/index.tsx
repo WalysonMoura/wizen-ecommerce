@@ -1,15 +1,15 @@
-"use client"
+"use client";
 
-import useIsMobile from "@/hooks/useIsMobile"
+import useIsMobile from "@/hooks/useIsMobile";
 
-import { BottomNavigation } from "../BottomNavigation"
-import { InformationBar } from "../InformationBar"
-import { DesktopMenu } from "./DesktopMenu"
-import { MobileMenu } from "./MobileMenu"
-import * as Style from "./styles"
+import { BottomNavigation } from "../BottomNavigation";
+import { InformationBar } from "../InformationBar";
+import { DesktopMenu } from "./DesktopMenu";
+import { MobileMenu } from "./MobileMenu";
+import * as Styles from "./styles";
 
 export function Header() {
-  const isMobile = useIsMobile()
+  const isMobile = useIsMobile();
 
   /*
     {isMobile ? (
@@ -23,12 +23,12 @@ export function Header() {
   */
   return (
     <>
-      <Style.HeaderContainer>
+      <header class="sticky top-0 z-40 w-full bg-header">
         <InformationBar />
         {isMobile ? <MobileMenu /> : <DesktopMenu />}
-      </Style.HeaderContainer>
+      </header>
 
       {isMobile && <BottomNavigation />}
     </>
-  )
+  );
 }

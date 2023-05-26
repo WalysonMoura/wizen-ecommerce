@@ -3,11 +3,6 @@
 import * as React from "react";
 import Link from "next/link";
 import * as Styles from "./styles";
-//import { getPublishedBlogPosts } from "@/services/notion"
-//import { useQuery } from "react-query"
-
-//import { BlogPost } from "@/types/blogPost"
-
 
 import { Icons } from "@/components/icons";
 import { MdAccountCircle } from "react-icons/md";
@@ -16,11 +11,11 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { BlogPost } from "@/types/blogPost";
 import { getSingleBlogPost } from "@/services/notion";
 
-import { MainNav } from "./mainNav";
+//import { MainNav } from "./mainNav";
 
 export function DesktopMenu() {
   return (
-    <Styles.Container>
+    <div class="w-full flex items-center justify-between">
       <Link href="/" className="hidden items-center space-x-2 md:flex">
         <Icons.fullLogo className="h-10 " />
       </Link>
@@ -48,6 +43,6 @@ export function DesktopMenu() {
           </h3>
         </div>
       </Styles.Account>
-    </Styles.Container>
+    </div>
   );
 }

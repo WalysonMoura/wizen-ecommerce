@@ -7,6 +7,11 @@ import * as Style from "./styles";
 //import { useQuery } from "react-query"
 
 //import { BlogPost } from "@/types/blogPost"
+
+//import { getPublishedBlogPosts } from "@/services/notion"
+//import { useQuery } from "react-query"
+
+//import { BlogPost } from "@/types/blogPost"
 import { cn } from "@/lib/utils";
 
 import { Icons } from "../../icons";
