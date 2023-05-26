@@ -20,8 +20,9 @@ module.exports = {
         primaryDarkBlue: "#051932",
 
         white1: "#fff",
-        white2: "#f9fbfb",
-        white3: "#E3F3E9",
+        white2: "#f8f8f8",
+        white3: "#f9fbfb",
+        white4: "#E3F3E9",
 
         black: "#0c0d0e",
         gray900: "#121214",

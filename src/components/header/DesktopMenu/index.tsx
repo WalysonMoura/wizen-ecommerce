@@ -22,8 +22,8 @@ export function DesktopMenu() {
       <div class="flex items-center gap-8">
         <FaMapMarkerAlt size={24} color="#009ED0" />
         <div class="flex flex-col items-center justify-start">
-          <span>Onde está meu pedido?</span>
-          <h3>Rastrear Pedido</h3>
+          <span class="text-white2">Onde está meu pedido?</span>
+          <h3 class="text-white2">Rastrear Pedido</h3>
         </div>
       </div>
 
@@ -33,11 +33,11 @@ export function DesktopMenu() {
          */}
         <MdAccountCircle size={24} color="#009ED0" />
         <div class="flex flex-col items-center justify-start">
-          <span>
+          <span class="text-white2">
             Descubra uma <strong>Experiência Personalizada!</strong>
           </span>
 
-          <h3>
+          <h3 class="text-white2">
             Crie sua <strong>Conta</strong> agora ou faça seu
             <strong>Login</strong>
           </h3>
