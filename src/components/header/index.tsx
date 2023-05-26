@@ -23,7 +23,7 @@ export function Header() {
   */
   return (
     <>
-      <header class="sticky top-0 z-40 w-full bg-header">
+      <header class="sticky top-0 z-40 w-full bg-darkBlue">
         <InformationBar />
         {isMobile ? <MobileMenu /> : <DesktopMenu />}
       </header>
