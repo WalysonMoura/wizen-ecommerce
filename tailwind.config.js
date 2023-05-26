@@ -1,7 +1,5 @@
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
-const defaultColors = {};
-
 module.exports = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -45,7 +43,7 @@ module.exports = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        //background: "hsl(0 0% 100%)",
+        background: "hsl(0 0% 100%)",
         foreground: "hsl(222.2 47.4% 11.2%)",
 
         primary: {
