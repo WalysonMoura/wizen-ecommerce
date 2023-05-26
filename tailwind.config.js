@@ -18,19 +18,6 @@ module.exports = {
         },
       },
       colors: {
-        primary: {
-          lightBlue: "#009ED0",
-          white: "#f8f8f8",
-          darkBlue: "#051932",
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(210 40% 98%))",
-        },
-        background: {
-          header: "#051932",
-          informationBar: "#009ED0",
-          page: "hsl(0 0% 100%)",
-        },
-
         white1: "#fff",
         white2: "#f9fbfb",
         white3: "#E3F3E9",
@@ -58,8 +45,22 @@ module.exports = {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(0 0% 100%)",
+        //background: "hsl(0 0% 100%)",
         foreground: "hsl(222.2 47.4% 11.2%)",
+
+        primary: {
+          lightBlue: "#009ED0",
+          white: "#f8f8f8",
+          darkBlue: "#051932",
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(210 40% 98%))",
+        },
+
+        background: {
+          header: "#051932",
+          informationBar: "#009ED0",
+          page: "hsl(0 0% 100%)",
+        },
 
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
