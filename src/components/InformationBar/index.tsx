@@ -1,4 +1,5 @@
 "use client";
+
 import * as Style from "./styles";
 import { MdPix } from 'react-icons/md';
 

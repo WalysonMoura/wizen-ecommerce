@@ -1,8 +1,8 @@
 import "../styles/globals.css";
 import { Metadata } from "next";
 
-import GoogleAnalytics from "@/components/molecules/GoogleAnalytics";
-import GoogleTagManager from "@/components/molecules/GoogleTagManager";
+//import GoogleAnalytics from "@/components/molecules/GoogleAnalytics";
+//import GoogleTagManager from "@/components/molecules/GoogleTagManager";
 
 import { ButtonWhatsapp } from "../components/ButtonWhatsapp";
 import { Typebot } from "../components/Typebot";

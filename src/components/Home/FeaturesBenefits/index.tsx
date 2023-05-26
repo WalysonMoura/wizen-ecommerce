@@ -37,7 +37,7 @@ export function FeaturesBenefits() {
 
   if (isMobile) {
     return (
-      <ContainerSlide
+      <Styles.ContainerSlide
         spaceBetween={20}
         slidesPerView={1}
         centeredSlides={true}
@@ -77,7 +77,7 @@ export function FeaturesBenefits() {
             
           </Styles.Card>
         </SwiperSlide>
-      </ContainerSlide>
+      </Styles.ContainerSlide>
     );
   }
 
