@@ -5,6 +5,8 @@ const defaultColors = {
     lightBlue: "#009ED0",
     white: "#f8f8f8",
     darkBlue: "#051932",
+    DEFAULT: "hsl(var(--primary))",
+    foreground: "hsl(210 40% 98%))",
   },
   background: {
     header: "#051932",
@@ -60,10 +62,7 @@ module.exports = {
         ring: "hsl(var(--ring))",
         background: "hsl(0 0% 100%)",
         foreground: "hsl(222.2 47.4% 11.2%)",
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(210 40% 98%))",
-        },
+
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
