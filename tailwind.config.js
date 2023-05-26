@@ -42,6 +42,9 @@ module.exports = {
         informationBar: "#009ED0",
         header: "#051932",
 
+        backgroundPage: "",
+        cardProduct: "",
+
         shadow900: "hsla(174,63%, 15%, 0.15)",
         colorDefaultMenuIcon: "rgba(57, 57, 57, 0.87)",
         colorActiveMenuIcon: "#028cb8",
