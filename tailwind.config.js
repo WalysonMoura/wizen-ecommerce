@@ -16,6 +16,9 @@ module.exports = {
         },
       },
       colors: {
+        primaryLightBlue: "#009ED0",
+        primaryDarkBlue: "#051932",
+
         white1: "#fff",
         white2: "#f9fbfb",
         white3: "#E3F3E9",
@@ -36,6 +39,9 @@ module.exports = {
         blue800: "#051932",
         blue900: "#0E1526",
 
+        informationBar: "#009ED0",
+        header: "#051932",
+
         shadow900: "hsla(174,63%, 15%, 0.15)",
         colorDefaultMenuIcon: "rgba(57, 57, 57, 0.87)",
         colorActiveMenuIcon: "#028cb8",
@@ -50,17 +56,13 @@ module.exports = {
           lightBlue: "#009ED0",
           white: "#f8f8f8",
           darkBlue: "#051932",
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "hsl(222.2 47.4% 11.2%)",
           foreground: "hsl(210 40% 98%))",
         },
 
         //background: {
 
         //   },
-
-        header: "#051932",
-        informationBar: "#009ED0",
-        page: "hsl(0 0% 100%)",
 
         secondary: {
           DEFAULT: "hsl(210 40% 96.1%)",
