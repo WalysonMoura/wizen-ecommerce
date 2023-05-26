@@ -16,23 +16,23 @@ import { getSingleBlogPost } from "@/services/notion";
 export function DesktopMenu() {
   return (
     <div class="w-full flex items-center justify-between">
-      <Link href="/" className="hidden items-center space-x-2 md:flex">
-        <Icons.fullLogo className="h-10 " />
-      </Link>
+      <FaMapMarkerAlt size={24} color="#009ED0" />
       {/**<Search/> */}
-      <Styles.Tracking>
+
+      <div class="flex items-center gap-8">
         <FaMapMarkerAlt size={24} color="#009ED0" />
-        <div>
+        <div class="flex flex-col items-center justify-start">
           <span>Onde está meu pedido?</span>
           <h3>Rastrear Pedido</h3>
         </div>
-      </Styles.Tracking>
-      <Styles.Account>
+      </div>
+
+      <div class="flex items-center gap-8">
         {/**
          * Login
          */}
         <MdAccountCircle size={24} color="#009ED0" />
-        <div>
+        <div class="flex flex-col items-center justify-start">
           <span>
             Descubra uma <strong>Experiência Personalizada!</strong>
           </span>
@@ -42,7 +42,10 @@ export function DesktopMenu() {
             <strong>Login</strong>
           </h3>
         </div>
-      </Styles.Account>
+
+      </div>
+
+
     </div>
   );
 }
