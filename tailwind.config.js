@@ -1,7 +1,43 @@
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
+const defaultColors = {
+  primary: {
+    lightBlue: "#009ED0",
+    white: "#f8f8f8",
+    darkBlue: "#051932",
+  },
+  background: {
+    header: "#051932",
+    informationBar: "#009ED0",
+    page: "hsl(0 0% 100%)",
+  },
+  colorDefaultMenuIcon: "rgba(57, 57, 57, 0.87)",
+  colorActiveMenuIcon: "#028cb8",
+
+  white1: "#fff",
+  white2: "#f9fbfb",
+  white3: "#E3F3E9",
+
+  black: "#0c0d0e",
+  gray900: "#121214",
+  gray800: "#202024",
+  gray300: "#c4c4cc",
+  gray100: "#e1e1e6",
+
+  blue100: "#7ccce4",
+  blue150: "#5cbede",
+  blue200: "#009ED0",
+  blue300: "#028cb8",
+  blue400: "#047ca4",
+  blue450: "#04759a",
+  blue500: "#0C5070",
+  blue800: "#051932",
+  blue900: "#0E1526",
+
+  shadow900: "hsla(174,63%, 15%, 0.15)",
+};
+
 module.exports = {
-  darkMode: "class",
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,15 +53,16 @@ module.exports = {
         },
       },
       colors: {
-        header: "#051932",
+        ...defaultColors,
+
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: "hsl(0 0% 100%)",
+        foreground: "hsl(222.2 47.4% 11.2%)",
         primary: {
           DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          foreground: "hsl(210 40% 98%))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -40,16 +77,16 @@ module.exports = {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "hsl(var(--accent))",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "hsl(210 40% 96.1%)",
+          foreground: "hsl(222.2 47.4% 11.2%)",
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "hsl(0 0% 100%)",
+          foreground: "hsl(222.2 47.4% 11.2%)",
         },
         card: {
-          DEFAULT: "hsl(var(--card))",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: "hsl(0 0% 100%)",
+          foreground: "hsl(222.2 47.4% 11.2%)",
         },
       },
       borderRadius: {
@@ -75,9 +112,9 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
