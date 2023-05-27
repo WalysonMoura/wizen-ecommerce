@@ -5,15 +5,17 @@ import { FaStar } from "react-icons/fa";
 import { Product } from "@/types/woocommerce";
 
 import * as Style from "./styles";
-
-export function CardProduct({ product }: { product: Product }) {
+type pro = {
+  product: [];
+};
+export function CardProduct({ product }: pro) {
   return (
     <Style.CardProductContainer>
       <Style.ImageProduct
         src="/images/products/caneca.jpg"
         width={1000}
         height={1000}
-        alt={product.slug}
+        alt=""
       />
       <Style.AddFavorites></Style.AddFavorites>
       <div>

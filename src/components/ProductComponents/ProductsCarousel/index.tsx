@@ -21,14 +21,14 @@ export function ProductsCarousel({ products }: { products: Product[] }) {
         clickable: true,
       }}
     >
-      {/** 
-      {products.map((product: { id: Key | null | undefined }) => (
-        <SwiperSlide key={product.id}>
+   
+      {products.map((product,index) => (
+        <SwiperSlide key={index}>
           <CardProduct product={product} />
         </SwiperSlide>
       ))}
       
-*/}
+
     </Style.SlidesContainer>
   );
 }
