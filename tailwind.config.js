@@ -86,9 +86,12 @@ module.exports = {
         },
       },
       borderRadius: {
-        lg: `var(--radius)`,
-        md: `calc(var(--radius) - 2px)`,
-        sm: "calc(var(--radius) - 4px)",
+        lg: `0.5rem`,
+        md: `calc(0.5rem - 2px)`,
+        sm: "calc(0.5rem - 4px)",
+      },
+      boxShadow: {
+        cardproduct: '34px 34px 68px #bebebe, -34px -34px 68px #ffffff',
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
