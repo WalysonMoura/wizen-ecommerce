@@ -80,13 +80,14 @@ const monospace = Monospace({
   display: "swap",
 });
 
-const lato = Lato({
-  variable: "--headings-font",
-  weight: ['100', '300', '400', '500', '700', '900'],
-  subsets: ["latin"],
-});
 
-const montserrat = Montserrat({
+ //const lato = Lato({
+  //variable: "--headings-font",
+ // weight: ['100', '300', '400', '500', '700', '900'],
+ // subsets: ["latin"],
+//});
+
+ const  montserrat = Montserrat({
   variable: "--highlights-font",
   weight: ['100', '300', '400', '500', '700', '900'],
   subsets: ["latin"],
