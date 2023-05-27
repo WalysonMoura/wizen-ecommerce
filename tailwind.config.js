@@ -92,6 +92,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        mono: ['var(--font-roboto-mono)'],
+        default: ['var(--font-poppins)']
       },
       keyframes: {
         "accordion-down": {

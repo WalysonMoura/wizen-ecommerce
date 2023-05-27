@@ -1,5 +1,17 @@
 import "../styles/globals.css";
 import { Metadata } from "next";
+import {
+  Inter,
+  Playfair_Display,
+  Roboto_Mono,
+  Roboto,
+  Monospace,
+  Montserrat,
+  Lato,
+  Open_Sans,
+  Nunito,
+  Poppins
+} from "next/font/google";
 
 //import GoogleAnalytics from "@/components/molecules/GoogleAnalytics";
 //import GoogleTagManager from "@/components/molecules/GoogleTagManager";
@@ -39,17 +51,71 @@ interface RootLayoutProps {
 
 //const queryClient = new QueryClient();
 
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-poppins",
+})
+
+const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto-mono",
+});
+
+const roboto = Roboto({
+  variable: "--body-font",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const monospace = Monospace({
+  variable: "--code-font",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const lato = Lato({
+  variable: "--headings-font",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const montserrat = Montserrat({
+  variable: "--highlights-font",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const openSans = Open_Sans({
+  variable: "--navigation-font",
+  subsets: ["latin"],
+  display: "swap",
+});
+const playfairDisplay = Playfair_Display({
+  variable: "--elegant-font",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+const nunito = Nunito({
+  variable: "--friendly-font",
+  subsets: ["latin"],
+  display: "swap",
+});
+
+
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <>
-      <html lang="pt-br" suppressHydrationWarning>
+      <html
+        lang="pt-br"
+        className={`${inter.variable} ${roboto_mono.variable}`}
+        suppressHydrationWarning
+      >
         <head />
-        <body
-          className={cn(
-            "min-h-screen bg-background font-sans antialiased",
-            fontSans.variable
-          )}
-        >
+        <body className="min-h-screen bg-background font-default antialiased">
           {/**
            * <GoogleTagManager />
           <GoogleAnalytics />
