@@ -5,7 +5,7 @@ import {
   Playfair_Display,
   Roboto_Mono,
   Roboto,
-  Monospace,
+ 
   Montserrat,
   Lato,
   Open_Sans,
@@ -72,14 +72,6 @@ const roboto = Roboto({
   subsets: ["latin"],
   display: "swap",
 });
-
-const monospace = Monospace({
-  variable: "--code-font",
-  weight: ['100', '300', '400', '500', '700', '900'],
-  subsets: ["latin"],
-  display: "swap",
-});
-
 
  //const lato = Lato({
   //variable: "--headings-font",
