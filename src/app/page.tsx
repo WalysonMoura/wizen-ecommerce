@@ -32,8 +32,8 @@ export default function IndexPage() {
       <div>
         <BestSellers />
         <Promotions />
-        <StoreNews />
-        <PersonalizedOffers />
+      {/*  <StoreNews />
+        <PersonalizedOffers /> */}
       </div>
       <div>
         <Video />
