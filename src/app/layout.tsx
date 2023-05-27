@@ -61,14 +61,14 @@ const poppins = Poppins({
 
 const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
- // weight: ['100', '300', '400', '500', '700', '900'],
+ //  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   display: "swap",
   variable: "--font-roboto-mono",
 });
 
 const roboto = Roboto({
   variable: "--body-font",
- // weight: ['100', '300', '400', '500', '700', '900'],
+ //  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
   subsets: ["latin"],
   display: "swap",
 });
