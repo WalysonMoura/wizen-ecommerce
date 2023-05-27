@@ -65,7 +65,9 @@ const roboto_mono = Roboto_Mono({
   display: "swap",
   variable: "--font-roboto-mono",
 });
-*/
+
+
+
 const roboto = Roboto({
   variable: "--body-font",
   weight: ['100', '300', '400', '500',  '700','900'],
@@ -112,7 +114,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html
         lang="pt-br"
-        className={`${poppins.variable} ${roboto_mono.variable}`}
+        className={`${poppins.variable}`}
         suppressHydrationWarning
       >
         <head />
