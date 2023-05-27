@@ -54,24 +54,28 @@ interface RootLayoutProps {
 
 const poppins = Poppins({
   subsets: ["latin"],
+  weight: ['100', '300', '400', '500', '700', '900'],
   display: "swap",
   variable: "--font-poppins",
 })
 
 const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
+  weight: ['100', '300', '400', '500', '700', '900'],
   display: "swap",
   variable: "--font-roboto-mono",
 });
 
 const roboto = Roboto({
   variable: "--body-font",
+  weight: ['100', '300', '400', '500', '700', '900'],
   subsets: ["latin"],
   display: "swap",
 });
 
 const monospace = Monospace({
   variable: "--code-font",
+  weight: ['100', '300', '400', '500', '700', '900'],
   subsets: ["latin"],
   display: "swap",
 });
@@ -79,28 +83,33 @@ const monospace = Monospace({
 const lato = Lato({
   variable: "--headings-font",
   subsets: ["latin"],
+  weight: ['100', '300', '400', '500', '700', '900'],
   display: "swap",
 });
 
 const montserrat = Montserrat({
   variable: "--highlights-font",
   subsets: ["latin"],
+  weight: ['100', '300', '400', '500', '700', '900'],
   display: "swap",
 });
 
 const openSans = Open_Sans({
   variable: "--navigation-font",
   subsets: ["latin"],
+  weight: ['100', '300', '400', '500', '700', '900'],
   display: "swap",
 });
 const playfairDisplay = Playfair_Display({
   variable: "--elegant-font",
+  weight: ['100', '300', '400', '500', '700', '900'],
   subsets: ["latin"],
   display: "swap",
 });
 
 const nunito = Nunito({
   variable: "--friendly-font",
+  weight: ['100', '300', '400', '500', '700', '900'],
   subsets: ["latin"],
   display: "swap",
 });
