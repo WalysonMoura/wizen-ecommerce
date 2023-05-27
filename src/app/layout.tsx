@@ -82,22 +82,21 @@ const monospace = Monospace({
 
 const lato = Lato({
   variable: "--headings-font",
-  subsets: ["latin"],
   weight: ['100', '300', '400', '500', '700', '900'],
-  display: "swap",
+  subsets: ["latin"],
 });
 
 const montserrat = Montserrat({
   variable: "--highlights-font",
-  subsets: ["latin"],
   weight: ['100', '300', '400', '500', '700', '900'],
+  subsets: ["latin"],
   display: "swap",
 });
 
 const openSans = Open_Sans({
   variable: "--navigation-font",
-  subsets: ["latin"],
   weight: ['100', '300', '400', '500', '700', '900'],
+  subsets: ["latin"],
   display: "swap",
 });
 const playfairDisplay = Playfair_Display({
