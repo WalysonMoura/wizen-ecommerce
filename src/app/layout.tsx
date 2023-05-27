@@ -111,7 +111,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html
         lang="pt-br"
-        className={`${inter.variable} ${roboto_mono.variable}`}
+        className={`${poppins.variable} ${roboto_mono.variable}`}
         suppressHydrationWarning
       >
         <head />
